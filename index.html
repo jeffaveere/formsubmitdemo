@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <form
+          class="row g-3"
+          action="https://formsubmit.co/faveerejef@gmail.com"
+          method="POST"
+        >
+          <div class="form-group">
+            <label for="firstname">firstname</label>
+            <input type="text" name="firstname" id="firstname" />
+          </div>
+          <div class="form-group">
+            <label for="lastname">lastname</label>
+            <input type="text" id="lastname" name="lastname" />
+          </div>
+          <div class="form-group">
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit">submit</button>
+        </form>
+      </div>
+      <div id="status" class="error">succses</div>
+    </section>
+  </body>
+</html>
